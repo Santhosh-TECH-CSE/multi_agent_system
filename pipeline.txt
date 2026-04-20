@@ -1,0 +1,9 @@
+User Query
+   ↓
+Research Agent (Search Web)
+   ↓
+Scraper Agent (Extract Content)
+   ↓
+Writer Agent (Generate Report)
+   ↓
+Reviewer Agent (Improve Output)
