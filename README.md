@@ -34,3 +34,35 @@ User Input → Search Tool → Scraper → LLM → Report → Critic
 ---
 
 ## 📂 Project Structure
+
+multi_agent_system/
+│
+├── app.py # Streamlit UI
+├── agents.py # Pipeline logic
+├── tools.py # Search + Scraping tools
+├── llm.py # LLM setup
+├── requirements.txt
+└── .gitignore
+
+
+---
+
+## 🧪 How to Run
+
+### 1. Clone repo
+
+```bash
+git clone https://github.com/YOUR_USERNAME/multi_agent_system.git
+cd multi_agent_system
+2. Create virtual environment
+uv venv
+.venv\Scripts\activate
+3. Install dependencies
+uv pip install -r requirements.txt
+4. Add API key
+
+Create .env file:
+
+TAVILY_API_KEY=your_api_key
+5. Run app
+uv run streamlit run app.py
